@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #1CA5B8;
+  }
+  
+  .container {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    height: 600px;
+  }
+  
+  #myTitle {
+    font-size: 50px;
+    margin: 0;
+    padding: 20px 0px;
+  }
+  
+  .left {
+    height: 500px;
+    width: 50%;
+    float:left;
+  }
+  
+  .right {
+    height: 500px;
+    width: 50%;
+    float:left;
+  }
+  
+  .formContainer {
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 30px;
+    width: 250px;
+    color: white;
+    background-color: #00708C;
+    border: 5px solid #012C40;
+    border-radius: 3px;
+  }
+  
+  label {
+    font-size: 22px;
+  }
+  
+  .inputs {
+    font-size: 17px;
+    height: 25px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  
+  #submitBtn, #remove {
+    color: #012C40;
+    font-size: 16px;
+    height: 35px;
+    width: 85px;
+    text-align: center;
+    border: 2px solid #012C40;
+  }
+  
+  #remove {
+    margin-top: 10px;
+  }
+  
+  .displayInfo {
+    height: 400px;
+  }
+  
+  #costDisplay {
+    height: 60px;
+    width: 150px;
+    margin: 0 auto;
+    border: 5px solid #012C40;
+    border-radius: 3px;
+  }
+  
+  #myTitle, #monthlyCosts, #employees {
+    color: black;
+  }
+  
+  .inputs, #costDisplay, td {
+    background-color: #DAEBF2;
+  }
+  
+  #monthAvg {
+    font-size: 25px;
+    margin-top: 12px;
+  }
+  
+  #employees {
+    padding-top: 30px;
+  }
+  
+  table {
+    width: 600px;
+    /*margin: 0 auto;*/
+    margin-left: -25px;
+  }
+  
+  th {
+    height: 40px;
+    color: white;
+    background-color: #00708C;
+  }
+  
+  th, td {
+    width: 20%;
+  }
+  
+  
+  
+  table, th, td {
+    border: 2px solid #012C40;
+    border-collapse: collapse;
+  }

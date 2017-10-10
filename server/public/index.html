@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Weekend Challenge1</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src='venders/jquery-3.2.1.min.js'></script>
+  <script src='scripts/client.js'></script>
+</head>
+<body>
+  <div class="container">
+    <h1 id='myTitle'>SALARY CALCULATOR</h1>
+<div class="left">
+  <div class="formContainer">
+    <label for='fName'>First Name:</label><br>
+    <input type='text' class='inputs' id='fName'><br>
+
+    <label for='lName'>Last Name:</label><br>
+    <input type='text' class='inputs' id='lName'><br>
+
+    <label for='iDNum'>ID Number:</label><br>
+    <input type="text" class='inputs' id='iDNum'><br>
+
+    <label for='jobTitle'>Job Title:</label><br>
+    <input type="text" class='inputs' id='jobTitle'><br>
+
+    <label for='salary'>Annual Salary:</label><br>
+    <input type="text" class='inputs' id='salary'><br>
+
+    <button type="submit" id='submitBtn'>SUBMIT</button>
+  </div>
+</div>
+
+<div class="right">
+  <div class="displayInfo">
+    <h1 id='monthlyCosts'>MONTHLY COSTS:</h1>
+    <div id='costDisplay'>
+     <p id='monthAvg'></p>
+    </div>
+    <h2 id='employees'>EMPLOYEES:</h2>
+    <table>
+      <tr>
+        <th>First</th>
+        <th>Last</th>
+        <th>ID Number</th>
+        <th>Job Title</th>
+        <th>Annual Salary</th>
+        <th id="select">select</th>
+      </tr>
+    </table>
+    <button type="button" id="remove">REMOVE</button>
+  </div>
+</div>
+
+
+  </div>
+</body>
+</html>
